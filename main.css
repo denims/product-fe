@@ -13,11 +13,6 @@ body {
     padding: 10px;   
 }
 
-.section-title {
-    color: #2ddf5c;
-    text-align: center;
-}
-
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
@@ -89,6 +84,11 @@ body {
 
 /* plans */
 
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
 #plans {
     padding: 20px 0;
 }
@@ -96,28 +96,30 @@ body {
     text-align: center;
 }
 
-#plans article {
-    width: 20%;
+.plan {
+    width: 30%;
     display: inline-block;
-    margin: 0 10px;
-    background-color: #99f5b1;
+    margin: 8px;
+    padding: 16px;
+    background-color: #d5ffdc;
     text-align: center;
     color: black;
+    vertical-align: middle;
 }
 
-#plans ul {
+.plan ul {
     padding: 0;
 }
 
-#plans li {
+.plan li {
     list-style: none;
 }
 
-#plans h2 {
+.plan h2 {
     color: #5d615e;
 }
 
-#plans button {
+.plan button {
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
@@ -125,27 +127,36 @@ body {
     padding: 8px;
     color: white;
     background-color: #0e4f1f;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-#plans .recommended {
-    background: #266838;
+.plan button:hover, .plan button:active {
+    color: #0e4f1f;
+    background-color: white;
+}
+
+.plan--highlighted {
+    background: #19b84c;
     color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
-#plans .recommended h2 { 
+.plan--highlighted h2 { 
     color: #02310f;
 }
 
-.recommended h1 {
+.plan--highlighted h1 {
     color: white;
 }
 
-.recommended h1:first-child {
+h1.plan__annotated {
     background: white;
     width: 80%;
     margin: 10%;
     padding: 10px;
     border-radius: 10px;
-    color: #0e4f1f;
+    color: #19b84c;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
