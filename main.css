@@ -15,6 +15,7 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 #product-overview h1 {
@@ -85,3 +86,66 @@ body {
     background: white;
     border: none;
 }
+
+/* plans */
+
+#plans {
+    padding: 20px 0;
+}
+#plans > div {
+    text-align: center;
+}
+
+#plans article {
+    width: 20%;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #99f5b1;
+    text-align: center;
+    color: black;
+}
+
+#plans ul {
+    padding: 0;
+}
+
+#plans li {
+    list-style: none;
+}
+
+#plans h2 {
+    color: #5d615e;
+}
+
+#plans button {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    background-color: #0e4f1f;
+}
+
+#plans .recommended {
+    background: #266838;
+    color: white;
+}
+
+#plans .recommended h2 { 
+    color: #02310f;
+}
+
+.recommended h1 {
+    color: white;
+}
+
+.recommended h1:first-child {
+    background: white;
+    width: 80%;
+    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #0e4f1f;
+}
+
