@@ -22,6 +22,7 @@ main {
     width: 80%;
     margin: 16px 0;
     padding: 16px;
+    position: relative;
 }
 
 .package-plan:hover, .package-plan:active {
@@ -39,6 +40,17 @@ main {
 
 .package-plan h2 {
     color: #a8a6a6;
+}
+
+h2.package-plan--recommended {
+    color: white;
+    background-color: #ff5454;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding: 8px;
 }
 
 .package-plan p {
